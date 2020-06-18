@@ -5,3 +5,4 @@ This repo contains the solutions for the leetcode problems.
 1. Insert Delete GetRandom
 2. Two Sum
 3. Validate IP Address
+4. H-Index II
