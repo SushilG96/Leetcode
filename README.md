@@ -8,3 +8,4 @@ This repo contains the solutions for the leetcode problems.
 4. H-Index II
 5. Duplicate Zeros
 6. Merge Sorted Array
+5. Susbset
