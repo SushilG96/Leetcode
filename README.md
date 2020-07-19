@@ -10,3 +10,4 @@ This repo contains the solutions for the leetcode problems.
 6. Merge Sorted Array
 7. Susbset
 8. ReverseWords
+9. Add Binary
