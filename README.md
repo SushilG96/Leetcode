@@ -11,3 +11,4 @@ This repo contains the solutions for the leetcode problems.
 7. Susbset
 8. ReverseWords
 9. Add Binary
+10. Add Digits
