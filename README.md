@@ -1,4 +1,4 @@
-This repo contains the solutions for the leetcode problems 👋.
+This repo contains the solutions for the leetcode problems :technologist:	.
 
 # git clone https://github.com/SushilG96/Leetcode.git
 
