@@ -12,3 +12,4 @@ This repo contains the solutions for the leetcode problems.
 8. ReverseWords
 9. Add Binary
 10. Add Digits
+11. Repeated Substring Pattern
