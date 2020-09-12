@@ -13,3 +13,4 @@ This repo contains the solutions for the leetcode problems :technologist:	.
 9. Add Binary
 10. Add Digits
 11. Repeated Substring Pattern
+12. Combination Sum III
