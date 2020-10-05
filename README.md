@@ -15,3 +15,4 @@ This repo contains the solutions for the leetcode problems :technologist:	.
 11. Repeated Substring Pattern
 12. Combination Sum III
 13. First Missing Positive
+14. Complement of Base 10 Integer
