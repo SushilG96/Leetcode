@@ -16,3 +16,4 @@ This repo contains the solutions for the leetcode problems :technologist:	.
 12. Combination Sum III
 13. First Missing Positive
 14. Complement of Base 10 Integer
+15. Rotate list
