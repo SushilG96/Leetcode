@@ -18,3 +18,4 @@ This repo contains the solutions for the leetcode problems :technologist:	.
 14. Complement of Base 10 Integer
 15. Rotate list
 16. Linked List
+17. Binary search
