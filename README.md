@@ -19,3 +19,4 @@ This repo contains the solutions for the leetcode problems :technologist:	.
 15. Rotate list
 16. Linked List
 17. Binary search
+18. Buddy String
