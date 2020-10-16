@@ -20,3 +20,5 @@ This repo contains the solutions for the leetcode problems :technologist:	.
 16. Linked List
 17. Binary search
 18. Buddy String
+19. Search a 2D Matrix
+
