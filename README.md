@@ -39,7 +39,7 @@ git clone https://github.com/SushilG96/Leetcode.git
 Change to the repository directory on your computer (if you are not already there):
 
 ```
-cd first-contributions
+cd Leetcode
 ```
 
 Now create a branch using the `git checkout` command:
