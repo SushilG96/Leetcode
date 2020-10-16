@@ -21,4 +21,5 @@ This repo contains the solutions for the leetcode problems :technologist:	.
 17. Binary search
 18. Buddy String
 19. Search a 2D Matrix
-
+20. Rotate Array
+21. Minimum Absolute Difference
