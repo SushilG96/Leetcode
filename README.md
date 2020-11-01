@@ -110,3 +110,4 @@ You will get a notification email once the changes have been merged.
 20. Rotate Array
 21. Minimum Absolute Difference
 22. Asteroid collision
+23. Convert Binary Number in a Linked List to Integer
