@@ -1,34 +1,13 @@
-# on: push
-# name: Lint Python
-# jobs:
-#   lint:
-#     runs-on: ubuntu-latest
-#     steps:
-#       - uses: actions/checkout@v2
-#       - uses: cclauss/Find-Python-syntax-errors-action@master
-name: Test
-
-on: [push, pull_request]
-
+name: first-workflow
+on: [push]
 jobs:
-  lint:
+  check-python-version:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: cclauss/Find-Python-syntax-errors-action@master
-  build:
-    runs-on: ${{ matrix.os }}
-    strategy:
-      fail-fast: false
-      matrix:
-        python-version: ["2.7"]
-        os: [ubuntu-latest]
-    steps:
-      - uses: actions/checkout@v2
-
-      - name: Set up Python ${{ matrix.python-version }}
+      - name: Set up Python 3.6.9
         uses: actions/setup-python@v2
         with:
-          python-version: ${{ matrix.python-version }}
-
-      - uses: cclauss/Find-Python-syntax-errors-action@master
+          python-version: 3.6.9
+      - name: Check Version
+        run: python --version
