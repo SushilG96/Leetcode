@@ -120,7 +120,7 @@ class LinkedList:
 
         pre_node = None
         # Search for key
-        #while cur_node
+        while cur_node
 
 llist = LinkedList()
 llist.append('B')
