@@ -4,10 +4,12 @@
 #         self.val = val
 #         self.next = next
 # class Solution:
-def isPalindrome(self, head):
-    res = []
+def swapPairs(self, head):
     curr = head
+    k = 0
     while curr:
-        res.append(curr.val)
+        k += 1
+        if k % 2 != 0 and curr.next:
+            curr.val, curr.next.val = curr.next.val, curr.val
         curr = curr.next
-    return (res == res[::-1])
+    return head
