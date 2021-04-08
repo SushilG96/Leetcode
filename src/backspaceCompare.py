@@ -1,7 +1,7 @@
 def _abc(self, s):
     k = []
     for x in s:
-        if x != '#':
+        if x != "#":
             k.append(x)
         else:
             if k:
@@ -10,6 +10,5 @@ def _abc(self, s):
 
 
 class Solution:
-
     def backspaceCompare(self, S: str, T: str) -> bool:
         return _abc(self, S) == _abc(self, T)

@@ -10,4 +10,4 @@ def isPalindrome(self, head):
     while curr:
         res.append(curr.val)
         curr = curr.next
-    return (res == res[::-1])
+    return res == res[::-1]
