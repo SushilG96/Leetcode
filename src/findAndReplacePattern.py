@@ -10,8 +10,9 @@ def encode(p):
         else:
             s += str(p_encode[x])
     return s
+
+
 class Solution:
     def findAndReplacePattern(self, words, pattern):
         pattern = encode(pattern)
         return ([x for x in words if encode(x) == pattern])
-
