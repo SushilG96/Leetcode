@@ -15,4 +15,4 @@ def encode(p):
 class Solution:
     def findAndReplacePattern(self, words, pattern):
         pattern = encode(pattern)
-        return ([x for x in words if encode(x) == pattern])
+        return [x for x in words if encode(x) == pattern]
