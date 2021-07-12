@@ -18,7 +18,6 @@ Rows ordered from the weakest to the strongest are [2,0,3,1,4]
 
 """
 z = {}
-for i,x in enumerate(mat):
+for i, x in enumerate(mat):
     z[i] = x.count(1)
 return sorted(z, key=z.get)[:k]
-

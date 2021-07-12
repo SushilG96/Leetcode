@@ -15,14 +15,15 @@ The strings are the same, so return true.
 # solution 1
 class Solution:
     def arrayStringsAreEqual(self, word1: List[str], word2: List[str]) -> bool:
-        w1,w2 ="",""
+        w1, w2 = "", ""
         for x in word1:
             w1 += x
         for x in word2:
             w2 += x
-        return(w1==w2)
+        return w1 == w2
 
-# Solution 2    
+
+# Solution 2
 class Solution:
     def arrayStringsAreEqual(self, word1: List[str], word2: List[str]) -> bool:
-        return("".join(word1) == "".join(word2))
+        return "".join(word1) == "".join(word2)

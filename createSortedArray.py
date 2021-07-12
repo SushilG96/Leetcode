@@ -19,6 +19,7 @@ The total cost is 0 + 0 + 0 + 1 = 1.
 """
 from sortedcontainers import SortedList
 
+
 class Solution:
     def createSortedArray(self, instructions):
         SList = SortedList()

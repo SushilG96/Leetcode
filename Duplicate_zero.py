@@ -4,6 +4,8 @@ Output: null
 Explanation: After calling your function, the input array is modified to: [1,0,0,2,3,0,0,4]
 
 """
+
+
 class Solution:
     def duplicateZeros(self, arr: List[int]) -> None:
         """
@@ -15,6 +17,5 @@ class Solution:
             if arr[x] == 0:
                 to_ins.append(x)
         for x in range(count):
-            arr.insert(to_ins[x]+x,0)
+            arr.insert(to_ins[x] + x, 0)
             arr.pop()
-        

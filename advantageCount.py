@@ -8,10 +8,12 @@ Example 2:
 Input: A = [12,24,8,32], B = [13,25,32,11]
 Output: [24,32,8,12]
 """
+
+
 class Solution:
     def advantageCount(self, A: List[int], B: List[int]) -> List[int]:
         A = sorted(A)[::-1]
-        res = [-1]*len(A)
+        res = [-1] * len(A)
         c = sorted([(num, i) for i, num in enumerate(B)])[::-1]
         beg, end = 0, len(A) - 1
         for val, ind in c:
@@ -20,5 +22,5 @@ class Solution:
                 beg += 1
             else:
                 res[ind] = A[end]
-                end-=1
-        return(res)
+                end -= 1
+        return res

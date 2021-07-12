@@ -18,15 +18,16 @@ Output: 2.50000
 Explanation: merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5.
 
 """
+
+
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
         res = nums1 + nums2
         res.sort()
 
         l = len(res)
-        mid = res[l//2]
+        mid = res[l // 2]
         if l % 2 != 0:
-            return(float(mid))
+            return float(mid)
         else:
-            return((mid + res[l//2-1])/2)
-        
+            return (mid + res[l // 2 - 1]) / 2

@@ -7,6 +7,8 @@ Output:[1,2,2,3,5,6]
 Do not return anything, modify nums1 in-place instead.
 
 """
+
+
 class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
         """

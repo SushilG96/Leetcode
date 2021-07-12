@@ -14,10 +14,11 @@ k = 8,
 
 return 13.
 """
+
+
 class Solution:
     def kthSmallest(self, matrix: List[List[int]], k: int) -> int:
         t = []
         for x in matrix:
             t.extend(x)
-        return(sorted(t)[k-1])
-
+        return sorted(t)[k - 1]

@@ -18,15 +18,17 @@ Explanation: s can be split into "RL", "LLLRRR", "LR", each substring contains s
 
 # Greedy approach
 """
+
+
 class Solution:
     def balancedStringSplit(self, s: str) -> int:
         l, r, count = 0, 0, 0
         for x in s:
-            if x == 'R':
+            if x == "R":
                 r += 1
             else:
                 l += 1
             if r == l:
-                count+=1
+                count += 1
                 l, r = 0, 0
-        return(count)
+        return count

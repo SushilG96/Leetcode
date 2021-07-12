@@ -12,12 +12,14 @@ Output: 9
 Explanation: The missing positive integers are [1,5,6,8,9,10,12,13,...]. The 5th missing positive integer is 9.
 
 """
+
+
 class Solution:
     def findKthPositive(self, arr: List[int], k: int) -> int:
-        count = num =0
-        for i in range(1,k+arr[-1]+1):
+        count = num = 0
+        for i in range(1, k + arr[-1] + 1):
             if i not in arr:
-                count+=1
+                count += 1
                 num = i
                 if count == k:
                     return num

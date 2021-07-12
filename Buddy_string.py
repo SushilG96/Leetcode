@@ -31,10 +31,12 @@ Output: false
 
 """
 
+
 class Solution:
     def buddyStrings(self, A: str, B: str) -> bool:
         c1, c2 = Counter(A), Counter(B)
-        if c1 != c2: return False
+        if c1 != c2:
+            return False
 
         # Must have 2 diff exactly to have same value after swap
         total_diff = sum([1 for i in range(len(A)) if A[i] != B[i]])

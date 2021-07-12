@@ -1,11 +1,13 @@
 import random
-class RandomizedSet:
 
+
+class RandomizedSet:
     def __init__(self):
         """
         Initialize your data structure here.
         """
         self._l = []
+
     def insert(self, val: int) -> bool:
         """
         Inserts a value to the set. Returns true if the set did not already contain the specified element.
@@ -14,7 +16,6 @@ class RandomizedSet:
             return False
         self._l.append(val)
         return True
-        
 
     def remove(self, val: int) -> bool:
         """

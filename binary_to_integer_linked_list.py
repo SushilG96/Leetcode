@@ -20,5 +20,4 @@ class Solution:
         while tmp:
             s += str(tmp.val)
             tmp = tmp.next
-        return int(s,2)
-        
+        return int(s, 2)

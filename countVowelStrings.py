@@ -19,11 +19,13 @@ Explanation: The 15 sorted strings that consist of vowels only are
 Note that "ea" is not a valid string since 'e' comes after 'a' in the alphabet.
 """
 from itertools import combinations_with_replacement
+
+
 class Solution:
     def countVowelStrings(self, n: int) -> int:
-        l=['a','e','i','o','u']
-        x = combinations_with_replacement(l,n)
+        l = ["a", "e", "i", "o", "u"]
+        x = combinations_with_replacement(l, n)
         count = 0
         for i in x:
             count += 1
-        return(count)
+        return count

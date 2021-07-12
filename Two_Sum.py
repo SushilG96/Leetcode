@@ -5,9 +5,9 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
-        l=[]
+        l = []
         for x in range(len(nums)):
-            for y in range(x + 1 ,len(nums)):
+            for y in range(x + 1, len(nums)):
                 if nums[x] + nums[y] == target:
                     l.append(x)
                     l.append(y)

@@ -18,11 +18,13 @@ Input: people = [3,2,2,1], limit = 3
 Output: 3
 Explanation: 3 boats (1, 2), (2) and (3)
 """
+
+
 class Solution:
     def numRescueBoats(self, people: List[int], limit: int) -> int:
-        
+
         people.sort()
-        i, j = 0, len(people)-1
+        i, j = 0, len(people) - 1
         numVisits = 0
         while i <= j:
             numVisits += 1
@@ -31,5 +33,5 @@ class Solution:
                 j -= 1
             else:
                 j -= 1
-                
+
         return numVisits

@@ -8,7 +8,7 @@ class Solution:
 
             # Jump is with the size of searching elelment i.e cal
             for j in range(cal, len(s), cal):
-                if tem == s[j: j + cal]:
+                if tem == s[j : j + cal]:
                     run = j + cal
                     if run == len(s):
                         return True
